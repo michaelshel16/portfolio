@@ -1,0 +1,143 @@
+
+body{
+    background-color: black;
+    margin:0px;
+    
+    
+}
+.menu-bar{
+    background-color:#00A19C;
+    color:white;
+    display:flex;
+    height:80px;
+    width:100%;
+    align-items:center;
+    justify-content: space-around;
+    position:fixed;
+    top:0px;
+    
+   
+}
+.Logo{
+    font-size:40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.Logo span{
+    color:red;
+}
+.menu-bar ul{
+    list-style-type:none;
+    display:flex;
+}
+.menu-bar ul li{
+    
+    padding:10px 30px;
+}
+.menu-bar ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list:hover{
+    background-color: grey;
+    transition: 0.3s;
+    border-radius: 4px;
+    
+}
+.dropdown-menu{
+    display:none;
+}
+.menu-bar ul li:hover .dropdown-menu{
+    display: block;
+    position:absolute;
+   background-color: grey;
+    }
+.dropdown-menu ul{
+display:block;
+margin:10px;
+}
+.intro{
+    color:white;
+    margin-left:8%;
+    margin-top:15%;
+}
+.intro h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.intro h1 span{
+    color:#00A19C;
+}
+.intro p{
+    font-size:40px;
+    width:50%;
+    color:bisque;
+    font-family: 'Caveat', cursive;
+}
+.cv{
+    padding:30px;
+    margin:10px;
+    border-radius:15px;
+    background-color: yellowgreen;
+    color:black;
+    font-size: 25px;
+    font-weight:20px ;
+    font-family: 'Fjalla One', sans-serif;
+    
+
+}
+.cv:hover{
+    cursor:pointer;
+    background-color: grey;
+    transition: 0.3s;
+    box-shadow:#00A19C;
+
+}
+.cv a{
+    text-decoration:none;
+    color:black;
+}
+.images{
+    display: flex;
+}
+
+.shape{
+    position:absolute;
+    width:30%;
+    height:70%;
+    bottom:0;
+    right:200px;
+    top:300px;
+}
+.person{
+    height:90%;
+    position:absolute;
+    left:50%;
+    bottom:0;
+    top:200px;
+    left:1250px;
+} 
+.connect{
+    width:400px;
+    height:400px;
+}
+.connect ul li a{
+    list-style-type:none;
+    display: block;
+    text-decoration:none ;
+    padding:15px; 
+    font-size: 50px;
+    color:white;
+    font-family: 'Amatic SC', cursive;
+}   
+.fa-brands{
+    color:#00A19C;
+}
+.fa-solid{
+    color:yellowgreen;
+}
+
+
+ 
